@@ -14,20 +14,16 @@
 - (void)setUrlString:(NSString *)urlString {
     _urlString = urlString;
     
-    
-    
+    _pName = urlString;
 }
 
-
-+ (instancetype)requestWithURLString:(NSString *)URLString resultCallback:(LYRouterResultCallback)resultCallback {
-    
++ (instancetype)requestWithURLString:(NSString *)URLString
+                            paramDic:(NSDictionary *)paramDic
+                      resultCallback:(LYRouterResultCallback)resultCallback {
     LYRouterRequest *request = [[LYRouterRequest alloc] init];
-    
     request.urlString = URLString;
-    
     request.resultCallBack = resultCallback;
-    
+    request.paramDic = paramDic;
     return request;
-    
 }
 @end

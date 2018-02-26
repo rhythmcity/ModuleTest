@@ -1,0 +1,433 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BA67208920411C4C00A6C88F /* LYMoudleCenter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA67207F20411C4C00A6C88F /* LYMoudleCenter.framework */; };
+		BA67208E20411C4C00A6C88F /* LYMoudleCenterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BA67208D20411C4C00A6C88F /* LYMoudleCenterTests.m */; };
+		BA67209020411C4C00A6C88F /* LYMoudleCenter.h in Headers */ = {isa = PBXBuildFile; fileRef = BA67208220411C4C00A6C88F /* LYMoudleCenter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BA67209A20411D7800A6C88F /* LYMoudleCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = BA67209920411D7800A6C88F /* LYMoudleCenter.m */; };
+		BA67209C20411F3000A6C88F /* LYMoudleCenterProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = BA67209B20411F3000A6C88F /* LYMoudleCenterProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BA67208A20411C4C00A6C88F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BA67207620411C4C00A6C88F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BA67207E20411C4C00A6C88F;
+			remoteInfo = LYMoudleCenter;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BA67207F20411C4C00A6C88F /* LYMoudleCenter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LYMoudleCenter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA67208220411C4C00A6C88F /* LYMoudleCenter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LYMoudleCenter.h; sourceTree = "<group>"; };
+		BA67208320411C4C00A6C88F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BA67208820411C4C00A6C88F /* LYMoudleCenterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LYMoudleCenterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA67208D20411C4C00A6C88F /* LYMoudleCenterTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LYMoudleCenterTests.m; sourceTree = "<group>"; };
+		BA67208F20411C4C00A6C88F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BA67209920411D7800A6C88F /* LYMoudleCenter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LYMoudleCenter.m; sourceTree = "<group>"; };
+		BA67209B20411F3000A6C88F /* LYMoudleCenterProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LYMoudleCenterProtocol.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BA67207B20411C4C00A6C88F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA67208520411C4C00A6C88F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA67208920411C4C00A6C88F /* LYMoudleCenter.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BA67207520411C4C00A6C88F = {
+			isa = PBXGroup;
+			children = (
+				BA67208120411C4C00A6C88F /* LYMoudleCenter */,
+				BA67208C20411C4C00A6C88F /* LYMoudleCenterTests */,
+				BA67208020411C4C00A6C88F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BA67208020411C4C00A6C88F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BA67207F20411C4C00A6C88F /* LYMoudleCenter.framework */,
+				BA67208820411C4C00A6C88F /* LYMoudleCenterTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BA67208120411C4C00A6C88F /* LYMoudleCenter */ = {
+			isa = PBXGroup;
+			children = (
+				BA67208220411C4C00A6C88F /* LYMoudleCenter.h */,
+				BA67209920411D7800A6C88F /* LYMoudleCenter.m */,
+				BA67209B20411F3000A6C88F /* LYMoudleCenterProtocol.h */,
+				BA67208320411C4C00A6C88F /* Info.plist */,
+			);
+			path = LYMoudleCenter;
+			sourceTree = "<group>";
+		};
+		BA67208C20411C4C00A6C88F /* LYMoudleCenterTests */ = {
+			isa = PBXGroup;
+			children = (
+				BA67208D20411C4C00A6C88F /* LYMoudleCenterTests.m */,
+				BA67208F20411C4C00A6C88F /* Info.plist */,
+			);
+			path = LYMoudleCenterTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		BA67207C20411C4C00A6C88F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA67209C20411F3000A6C88F /* LYMoudleCenterProtocol.h in Headers */,
+				BA67209020411C4C00A6C88F /* LYMoudleCenter.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		BA67207E20411C4C00A6C88F /* LYMoudleCenter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA67209320411C4C00A6C88F /* Build configuration list for PBXNativeTarget "LYMoudleCenter" */;
+			buildPhases = (
+				BA67207A20411C4C00A6C88F /* Sources */,
+				BA67207B20411C4C00A6C88F /* Frameworks */,
+				BA67207C20411C4C00A6C88F /* Headers */,
+				BA67207D20411C4C00A6C88F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LYMoudleCenter;
+			productName = LYMoudleCenter;
+			productReference = BA67207F20411C4C00A6C88F /* LYMoudleCenter.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		BA67208720411C4C00A6C88F /* LYMoudleCenterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA67209620411C4C00A6C88F /* Build configuration list for PBXNativeTarget "LYMoudleCenterTests" */;
+			buildPhases = (
+				BA67208420411C4C00A6C88F /* Sources */,
+				BA67208520411C4C00A6C88F /* Frameworks */,
+				BA67208620411C4C00A6C88F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BA67208B20411C4C00A6C88F /* PBXTargetDependency */,
+			);
+			name = LYMoudleCenterTests;
+			productName = LYMoudleCenterTests;
+			productReference = BA67208820411C4C00A6C88F /* LYMoudleCenterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BA67207620411C4C00A6C88F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = liyan;
+				TargetAttributes = {
+					BA67207E20411C4C00A6C88F = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					BA67208720411C4C00A6C88F = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = BA67207920411C4C00A6C88F /* Build configuration list for PBXProject "LYMoudleCenter" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = BA67207520411C4C00A6C88F;
+			productRefGroup = BA67208020411C4C00A6C88F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BA67207E20411C4C00A6C88F /* LYMoudleCenter */,
+				BA67208720411C4C00A6C88F /* LYMoudleCenterTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BA67207D20411C4C00A6C88F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA67208620411C4C00A6C88F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BA67207A20411C4C00A6C88F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA67209A20411D7800A6C88F /* LYMoudleCenter.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA67208420411C4C00A6C88F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA67208E20411C4C00A6C88F /* LYMoudleCenterTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BA67208B20411C4C00A6C88F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BA67207E20411C4C00A6C88F /* LYMoudleCenter */;
+			targetProxy = BA67208A20411C4C00A6C88F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		BA67209120411C4C00A6C88F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		BA67209220411C4C00A6C88F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		BA67209420411C4C00A6C88F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = LYMoudleCenter/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.liyan.LYMoudleCenter;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BA67209520411C4C00A6C88F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = LYMoudleCenter/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.liyan.LYMoudleCenter;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BA67209720411C4C00A6C88F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LYMoudleCenterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.liyan.LYMoudleCenterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BA67209820411C4C00A6C88F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LYMoudleCenterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.liyan.LYMoudleCenterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BA67207920411C4C00A6C88F /* Build configuration list for PBXProject "LYMoudleCenter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA67209120411C4C00A6C88F /* Debug */,
+				BA67209220411C4C00A6C88F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BA67209320411C4C00A6C88F /* Build configuration list for PBXNativeTarget "LYMoudleCenter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA67209420411C4C00A6C88F /* Debug */,
+				BA67209520411C4C00A6C88F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BA67209620411C4C00A6C88F /* Build configuration list for PBXNativeTarget "LYMoudleCenterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA67209720411C4C00A6C88F /* Debug */,
+				BA67209820411C4C00A6C88F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BA67207620411C4C00A6C88F /* Project object */;
+}

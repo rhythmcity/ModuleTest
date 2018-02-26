@@ -16,6 +16,8 @@
 		BA17EB822031872A0033591B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BA17EB812031872A0033591B /* main.m */; };
 		BA17EB8C2031872A0033591B /* ATests.m in Sources */ = {isa = PBXBuildFile; fileRef = BA17EB8B2031872A0033591B /* ATests.m */; };
 		BA17EB972031872A0033591B /* AUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = BA17EB962031872A0033591B /* AUITests.m */; };
+		BA67209F204122B600A6C88F /* LYMoudleCenter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA6720A0204122B600A6C88F /* LYMoudleCenter.framework */; };
+		BA6720DE204174DD00A6C88F /* C.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA6720DF204174DD00A6C88F /* C.framework */; };
 		BAD459D92031881D008545DB /* B.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BAD459DA2031881D008545DB /* B.framework */; };
 		BAD45A2D204018AD008545DB /* LYRouterModule.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BAD45A2E204018AD008545DB /* LYRouterModule.framework */; };
 /* End PBXBuildFile section */
@@ -56,6 +58,9 @@
 		BA17EB922031872A0033591B /* AUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA17EB962031872A0033591B /* AUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AUITests.m; sourceTree = "<group>"; };
 		BA17EB982031872A0033591B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BA67209D204122B000A6C88F /* AVKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVKit.framework; path = System/Library/Frameworks/AVKit.framework; sourceTree = SDKROOT; };
+		BA6720A0204122B600A6C88F /* LYMoudleCenter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = LYMoudleCenter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA6720DF204174DD00A6C88F /* C.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = C.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BAD459DA2031881D008545DB /* B.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = B.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BAD45A2E204018AD008545DB /* LYRouterModule.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = LYRouterModule.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F2415D151EA52CF10452E552 /* Pods-A.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-A.release.xcconfig"; path = "../Pods/Target Support Files/Pods-A/Pods-A.release.xcconfig"; sourceTree = "<group>"; };
@@ -66,6 +71,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BA6720DE204174DD00A6C88F /* C.framework in Frameworks */,
+				BA67209F204122B600A6C88F /* LYMoudleCenter.framework in Frameworks */,
 				BAD45A2D204018AD008545DB /* LYRouterModule.framework in Frameworks */,
 				BAD459D92031881D008545DB /* B.framework in Frameworks */,
 				4944271F72E70503A5D53BEF /* libPods-A.a in Frameworks */,
@@ -92,6 +99,9 @@
 		13859BBA4D8A52169F4B194B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				BA6720DF204174DD00A6C88F /* C.framework */,
+				BA6720A0204122B600A6C88F /* LYMoudleCenter.framework */,
+				BA67209D204122B000A6C88F /* AVKit.framework */,
 				BAD45A2E204018AD008545DB /* LYRouterModule.framework */,
 				BAD459DA2031881D008545DB /* B.framework */,
 				69CCBB66B82C93B7330880AC /* libPods-A.a */,

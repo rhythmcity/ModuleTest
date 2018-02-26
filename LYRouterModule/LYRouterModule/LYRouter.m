@@ -45,41 +45,91 @@ NSString *const LYRouterDefaultPName = @"^default^";
     }
 }
 
-- (BOOL)open:(NSString *)url target:(nullable __kindof UIViewController *)target responseHandler:(nullable LYRouterResultCallback)responseHandler {
+- (BOOL)open:(NSString *)url {
+    return [self open:url target:nil parmaDic:nil responseHandler:nil];
+}
+
+- (BOOL)open:(NSString *)url target:(__kindof UIViewController *)target responseHandler:(LYRouterResultCallback)responseHandler {
+    
+    return [self open:url target:target parmaDic:nil responseHandler:responseHandler];
+}
+
+- (BOOL)open:(NSString *)url target:(nullable __kindof UIViewController *)target parmaDic:(nullable NSDictionary *)paramDic responseHandler:(nullable LYRouterResultCallback)responseHandler {
     if (!url) {
         return NO;
     }
     
-    LYRouterRequest *request = [LYRouterRequest requestWithURLString:url resultCallback:responseHandler];
+    LYRouterRequest *request = [LYRouterRequest requestWithURLString:url paramDic:paramDic resultCallback:responseHandler];
     
     @synchronized(self.pNameSet) {
-        
-        
-        
-        
+        Class<LYRouterProtocol> handler = [self handleForPName:request.pName];
+        if (handler) {
+            if (!target) {
+                target = [self topViewController];
+            }
+            if ([handler respondsToSelector:@selector(openRequest:application:annotation:target:)]) {
+                return [handler openRequest:request application:nil annotation:nil target:target];
+            }
+        }
     }
-    
-    
-    
-    
-    
     return NO;
 }
 
 
 - (Class<LYRouterProtocol>)handleForPName:(NSString *)pName {
     
-    
     if (!pName.length) {
         pName = LYRouterDefaultPName;
     }
-    
     @synchronized(self.pNameSet) {
+        __block NSString *handler = nil;
+        [self.pNameSet enumerateObjectsUsingBlock:^(id  _Nonnull obj, BOOL * _Nonnull stop) {
+            handler = [obj valueForKey:pName];
+            if (handler) {
+                *stop = YES;
+            }
+        }];
         
-        
+        if (handler) {
+            return NSClassFromString(handler);
+        }
+    }
+    return nil;
+}
+
+- (UIViewController *)topViewController
+{
+    UIViewController *target = nil;
+    
+    target = [self topViewController:[[UIApplication sharedApplication].keyWindow rootViewController]];
+    
+    if (!target) {
+        return  nil;
+    }
+    
+    while (target.presentedViewController) {
+        target = [self topViewController:target.presentedViewController];
+    }
+    
+    return target;
+}
+
+- (UIViewController *)topViewController:(UIViewController *)vc
+{
+    if ([vc isKindOfClass:[UINavigationController class]])
+    {
+        return [self topViewController:[(UINavigationController *)vc topViewController]];
+    }
+    else if ([vc isKindOfClass:[UITabBarController class]])
+    {
+        return [self topViewController:[(UITabBarController *)vc selectedViewController]];
+    }
+    else {
+        return vc;
     }
     
     return nil;
 }
+
 
 @end

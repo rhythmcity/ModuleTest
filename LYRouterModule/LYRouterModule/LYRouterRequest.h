@@ -15,7 +15,11 @@ typedef void(^LYRouterResultCallback)(NSError *error, NSDictionary *responseObje
 
 @property (nonatomic, copy)NSString *urlString;
 
+@property (nonatomic, strong)NSDictionary *paramDic;
+
 @property (nonatomic, strong, readonly) NSString *pName;
 
-+ (instancetype)requestWithURLString:(NSString *)URLString resultCallback:(LYRouterResultCallback)resultCallback;
++ (instancetype)requestWithURLString:(NSString *)URLString
+                            paramDic:(NSDictionary *)paramDic
+                      resultCallback:(LYRouterResultCallback)resultCallback;
 @end

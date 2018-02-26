@@ -7,44 +7,130 @@
 //
 
 #import "AppDelegate.h"
-
+#import <LYMoudleCenter/LYMoudleCenter.h>
+#import <B/B.h>
+#import <C/C.h>
+#import "ViewController.h"
 @interface AppDelegate ()
 
 @end
 
 @implementation AppDelegate
 
+- (BOOL)application:(UIApplication *)application willFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+    [[LYMoudleCenter defaultMoudleCenter] application:application willFinishLaunchingWithOptions:launchOptions];
+    
+    return YES;
+}
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    [[BMoudle module] setup];
+    
+    [[CModule module] setup];
+    
+    
+    UINavigationController *navigation = [[UINavigationController alloc] initWithRootViewController:[ViewController new]];
+    
+    self.window.rootViewController = navigation;
+    
     return YES;
 }
 
 
-- (void)applicationWillResignActive:(UIApplication *)application {
-    // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.
-    // Use this method to pause ongoing tasks, disable timers, and invalidate graphics rendering callbacks. Games should use this method to pause the game.
+-(void)application:(UIApplication *)application performActionForShortcutItem:(UIApplicationShortcutItem *)shortcutItem completionHandler:(void (^)(BOOL))completionHandler
+{
+    [[LYMoudleCenter defaultMoudleCenter] application:application performActionForShortcutItem:shortcutItem completionHandler:completionHandler];
 }
 
 
-- (void)applicationDidEnterBackground:(UIApplication *)application {
-    // Use this method to release shared resources, save user data, invalidate timers, and store enough application state information to restore your application to its current state in case it is terminated later.
-    // If your application supports background execution, this method is called instead of applicationWillTerminate: when the user quits.
+- (BOOL)application:(UIApplication *)application openURL:(NSURL *)url sourceApplication:(NSString *)sourceApplication annotation:(id)annotation
+{
+    
+    
+    [[LYMoudleCenter defaultMoudleCenter] application:application openURL:url sourceApplication:sourceApplication annotation:annotation];
+    
+    return YES;
 }
 
-
-- (void)applicationWillEnterForeground:(UIApplication *)application {
-    // Called as part of the transition from the background to the active state; here you can undo many of the changes made on entering the background.
+- (void)applicationWillResignActive:(UIApplication *)application
+{
+    
+    
+    [[LYMoudleCenter defaultMoudleCenter] willResignActive:application];
 }
 
-
-- (void)applicationDidBecomeActive:(UIApplication *)application {
-    // Restart any tasks that were paused (or not yet started) while the application was inactive. If the application was previously in the background, optionally refresh the user interface.
+- (void)applicationDidEnterBackground:(UIApplication *)application
+{
+    
+    
+    [[LYMoudleCenter defaultMoudleCenter] didEnterBackground:application];
 }
 
+- (void)applicationWillEnterForeground:(UIApplication *)application
+{
+    
+    
+    [[LYMoudleCenter defaultMoudleCenter] willEnterForeground:application];
+}
 
-- (void)applicationWillTerminate:(UIApplication *)application {
-    // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
+- (void)applicationDidBecomeActive:(UIApplication *)application
+{
+    
+    
+    [[LYMoudleCenter defaultMoudleCenter] didBecomeActive:application];
+}
+
+- (void)applicationWillTerminate:(UIApplication *)application
+{
+    
+    
+    [[LYMoudleCenter defaultMoudleCenter] willTerminate:application];
+}
+
+- (void)application:(UIApplication *)application didRegisterForRemoteNotificationsWithDeviceToken:(NSData *)deviceToken
+{
+    
+    
+    [[LYMoudleCenter defaultMoudleCenter] application:application didRegisterForRemoteNotificationsWithDeviceToken:deviceToken];
+}
+
+- (void)application:(UIApplication *)application didFailToRegisterForRemoteNotificationsWithError:(NSError *)error
+{
+    
+    
+    [[LYMoudleCenter defaultMoudleCenter] application:application didFailToRegisterForRemoteNotificationsWithError:error];
+}
+
+- (void)application:(UIApplication *)application didReceiveRemoteNotification:(NSDictionary *)userinfo
+{
+    
+    
+    [[LYMoudleCenter defaultMoudleCenter] application:application didReceiveRemoteNotification:userinfo];
+}
+
+- (void)application:(UIApplication *)application didReceiveRemoteNotification:(NSDictionary *)userInfo fetchCompletionHandler:(void (^)(UIBackgroundFetchResult result))completionHandler
+{
+    
+    
+    [[LYMoudleCenter defaultMoudleCenter] application:application didReceiveRemoteNotification:userInfo fetchCompletionHandler:completionHandler];
+}
+
+- (void)application:(UIApplication *)application performFetchWithCompletionHandler:(void (^)(UIBackgroundFetchResult result))completionHandler
+{
+    
+    
+    [[LYMoudleCenter defaultMoudleCenter] application:application performFetchWithCompletionHandler:completionHandler];
+}
+
+- (BOOL)application:(UIApplication *)application continueUserActivity:(NSUserActivity *)userActivity restorationHandler:(void (^)(NSArray * _Nullable))restorationHandler
+{
+    
+    
+    [[LYMoudleCenter defaultMoudleCenter] application:application continueUserActivity:userActivity restorationHandler:restorationHandler];
+    
+    return YES;
 }
 
 

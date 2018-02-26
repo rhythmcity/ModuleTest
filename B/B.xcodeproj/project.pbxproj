@@ -11,6 +11,17 @@
 		BA17EBB8203187470033591B /* B.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA17EBAE203187470033591B /* B.framework */; };
 		BA17EBBD203187470033591B /* BTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BA17EBBC203187470033591B /* BTests.m */; };
 		BA17EBBF203187470033591B /* B.h in Headers */ = {isa = PBXBuildFile; fileRef = BA17EBB1203187470033591B /* B.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BA6720692041180B00A6C88F /* BMoudle.h in Headers */ = {isa = PBXBuildFile; fileRef = BA6720672041180B00A6C88F /* BMoudle.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BA67206A2041180B00A6C88F /* BMoudle.m in Sources */ = {isa = PBXBuildFile; fileRef = BA6720682041180B00A6C88F /* BMoudle.m */; };
+		BA67206D204118AA00A6C88F /* BViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = BA67206B204118AA00A6C88F /* BViewController.h */; };
+		BA67206E204118AA00A6C88F /* BViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA67206C204118AA00A6C88F /* BViewController.m */; };
+		BA672071204118BD00A6C88F /* BRouter.h in Headers */ = {isa = PBXBuildFile; fileRef = BA67206F204118BD00A6C88F /* BRouter.h */; };
+		BA672072204118BD00A6C88F /* BRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = BA672070204118BD00A6C88F /* BRouter.m */; };
+		BA672073204118DA00A6C88F /* LYRouterModule.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA672074204118DA00A6C88F /* LYRouterModule.framework */; };
+		BA6720A3204167BB00A6C88F /* B_OneViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = BA6720A1204167BB00A6C88F /* B_OneViewController.h */; };
+		BA6720A4204167BB00A6C88F /* B_OneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA6720A2204167BB00A6C88F /* B_OneViewController.m */; };
+		BA6720A72041680500A6C88F /* B_TwoViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = BA6720A52041680500A6C88F /* B_TwoViewController.h */; };
+		BA6720A82041680500A6C88F /* B_TwoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA6720A62041680500A6C88F /* B_TwoViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,6 +43,17 @@
 		BA17EBB7203187470033591B /* BTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA17EBBC203187470033591B /* BTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BTests.m; sourceTree = "<group>"; };
 		BA17EBBE203187470033591B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BA6720672041180B00A6C88F /* BMoudle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BMoudle.h; sourceTree = "<group>"; };
+		BA6720682041180B00A6C88F /* BMoudle.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BMoudle.m; sourceTree = "<group>"; };
+		BA67206B204118AA00A6C88F /* BViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BViewController.h; sourceTree = "<group>"; };
+		BA67206C204118AA00A6C88F /* BViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BViewController.m; sourceTree = "<group>"; };
+		BA67206F204118BD00A6C88F /* BRouter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BRouter.h; sourceTree = "<group>"; };
+		BA672070204118BD00A6C88F /* BRouter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BRouter.m; sourceTree = "<group>"; };
+		BA672074204118DA00A6C88F /* LYRouterModule.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = LYRouterModule.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA6720A1204167BB00A6C88F /* B_OneViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = B_OneViewController.h; sourceTree = "<group>"; };
+		BA6720A2204167BB00A6C88F /* B_OneViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = B_OneViewController.m; sourceTree = "<group>"; };
+		BA6720A52041680500A6C88F /* B_TwoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = B_TwoViewController.h; sourceTree = "<group>"; };
+		BA6720A62041680500A6C88F /* B_TwoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = B_TwoViewController.m; sourceTree = "<group>"; };
 		DA571D4BD7ED47B35BDA3ADF /* Pods-B.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-B.debug.xcconfig"; path = "../Pods/Target Support Files/Pods-B/Pods-B.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -40,6 +62,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BA672073204118DA00A6C88F /* LYRouterModule.framework in Frameworks */,
 				62685AE6941D51B9218C859F /* libPods-B.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -88,6 +111,16 @@
 			isa = PBXGroup;
 			children = (
 				BA17EBB1203187470033591B /* B.h */,
+				BA6720672041180B00A6C88F /* BMoudle.h */,
+				BA6720682041180B00A6C88F /* BMoudle.m */,
+				BA67206F204118BD00A6C88F /* BRouter.h */,
+				BA672070204118BD00A6C88F /* BRouter.m */,
+				BA67206B204118AA00A6C88F /* BViewController.h */,
+				BA67206C204118AA00A6C88F /* BViewController.m */,
+				BA6720A1204167BB00A6C88F /* B_OneViewController.h */,
+				BA6720A2204167BB00A6C88F /* B_OneViewController.m */,
+				BA6720A52041680500A6C88F /* B_TwoViewController.h */,
+				BA6720A62041680500A6C88F /* B_TwoViewController.m */,
 				BA17EBB2203187470033591B /* Info.plist */,
 			);
 			path = B;
@@ -105,6 +138,7 @@
 		BFBF356502DB293F6159DC13 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				BA672074204118DA00A6C88F /* LYRouterModule.framework */,
 				60724FA09766C780D048C717 /* libPods-B.a */,
 			);
 			name = Frameworks;
@@ -118,6 +152,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				BA17EBBF203187470033591B /* B.h in Headers */,
+				BA6720692041180B00A6C88F /* BMoudle.h in Headers */,
+				BA67206D204118AA00A6C88F /* BViewController.h in Headers */,
+				BA6720A72041680500A6C88F /* B_TwoViewController.h in Headers */,
+				BA672071204118BD00A6C88F /* BRouter.h in Headers */,
+				BA6720A3204167BB00A6C88F /* B_OneViewController.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,6 +296,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BA67206A2041180B00A6C88F /* BMoudle.m in Sources */,
+				BA6720A82041680500A6C88F /* B_TwoViewController.m in Sources */,
+				BA672072204118BD00A6C88F /* BRouter.m in Sources */,
+				BA6720A4204167BB00A6C88F /* B_OneViewController.m in Sources */,
+				BA67206E204118AA00A6C88F /* BViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
