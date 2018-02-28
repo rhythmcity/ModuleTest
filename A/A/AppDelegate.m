@@ -12,7 +12,6 @@
 #import <B/B.h>
 #import <C/C.h>
 #import <ProtocolsModule/ProtocolsModule.h>
-#import "ViewController.h"
 @interface AppDelegate ()
 
 @end
