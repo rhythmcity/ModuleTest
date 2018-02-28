@@ -8,7 +8,7 @@
 
 #import "BMoudle.h"
 #import "BRouter.h"
-
+#import "BService.h"
 @implementation BMoudle
 + (instancetype)module {
     
@@ -20,6 +20,7 @@
     
     [[LYMoudleCenter defaultMoudleCenter] resigterMoudle:self];
     [self resigterRouter];
+    [self resigterService];
 }
 
 
@@ -28,5 +29,14 @@
     [[LYRouter defaultRouter] resigterWithPageName:@"B2" handler:[BRouter class]];
     [[LYRouter defaultRouter] resigterWithPageName:@"B1" handler:[BRouter class]];
 }
+
+
+- (void)resigterService {
+    
+    [[LYServiceManager shareServiceManager] resigterProtocol:@protocol(BProtocol) impleClass:[BService class]];
+    
+    
+}
+
 
 @end

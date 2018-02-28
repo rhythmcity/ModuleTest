@@ -8,8 +8,10 @@
 
 #import "AppDelegate.h"
 #import <LYMoudleCenter/LYMoudleCenter.h>
+#import <LYMoudleCenter/LYServiceManager.h>
 #import <B/B.h>
 #import <C/C.h>
+#import <ProtocolsModule/ProtocolsModule.h>
 #import "ViewController.h"
 @interface AppDelegate ()
 
@@ -30,8 +32,12 @@
     
     [[CModule module] setup];
     
+    Class<BProtocol> bservice = [[LYServiceManager shareServiceManager] service:@protocol(BProtocol)];
     
-    UINavigationController *navigation = [[UINavigationController alloc] initWithRootViewController:[ViewController new]];
+    
+    
+    
+    UINavigationController *navigation = [[UINavigationController alloc] initWithRootViewController:[bservice tabViewController]];
     
     self.window.rootViewController = navigation;
     

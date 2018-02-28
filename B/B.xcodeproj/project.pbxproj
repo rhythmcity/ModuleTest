@@ -22,6 +22,9 @@
 		BA6720A4204167BB00A6C88F /* B_OneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA6720A2204167BB00A6C88F /* B_OneViewController.m */; };
 		BA6720A72041680500A6C88F /* B_TwoViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = BA6720A52041680500A6C88F /* B_TwoViewController.h */; };
 		BA6720A82041680500A6C88F /* B_TwoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA6720A62041680500A6C88F /* B_TwoViewController.m */; };
+		BAD7045720454D7B008CC588 /* BService.h in Headers */ = {isa = PBXBuildFile; fileRef = BAD7045520454D7B008CC588 /* BService.h */; };
+		BAD7045820454D7B008CC588 /* BService.m in Sources */ = {isa = PBXBuildFile; fileRef = BAD7045620454D7B008CC588 /* BService.m */; };
+		BAD704AB20455C6B008CC588 /* ProtocolsModule.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BAD704AC20455C6B008CC588 /* ProtocolsModule.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +57,9 @@
 		BA6720A2204167BB00A6C88F /* B_OneViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = B_OneViewController.m; sourceTree = "<group>"; };
 		BA6720A52041680500A6C88F /* B_TwoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = B_TwoViewController.h; sourceTree = "<group>"; };
 		BA6720A62041680500A6C88F /* B_TwoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = B_TwoViewController.m; sourceTree = "<group>"; };
+		BAD7045520454D7B008CC588 /* BService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BService.h; sourceTree = "<group>"; };
+		BAD7045620454D7B008CC588 /* BService.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BService.m; sourceTree = "<group>"; };
+		BAD704AC20455C6B008CC588 /* ProtocolsModule.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = ProtocolsModule.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA571D4BD7ED47B35BDA3ADF /* Pods-B.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-B.debug.xcconfig"; path = "../Pods/Target Support Files/Pods-B/Pods-B.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -62,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BAD704AB20455C6B008CC588 /* ProtocolsModule.framework in Frameworks */,
 				BA672073204118DA00A6C88F /* LYRouterModule.framework in Frameworks */,
 				62685AE6941D51B9218C859F /* libPods-B.a in Frameworks */,
 			);
@@ -115,6 +122,8 @@
 				BA6720682041180B00A6C88F /* BMoudle.m */,
 				BA67206F204118BD00A6C88F /* BRouter.h */,
 				BA672070204118BD00A6C88F /* BRouter.m */,
+				BAD7045520454D7B008CC588 /* BService.h */,
+				BAD7045620454D7B008CC588 /* BService.m */,
 				BA67206B204118AA00A6C88F /* BViewController.h */,
 				BA67206C204118AA00A6C88F /* BViewController.m */,
 				BA6720A1204167BB00A6C88F /* B_OneViewController.h */,
@@ -138,6 +147,7 @@
 		BFBF356502DB293F6159DC13 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				BAD704AC20455C6B008CC588 /* ProtocolsModule.framework */,
 				BA672074204118DA00A6C88F /* LYRouterModule.framework */,
 				60724FA09766C780D048C717 /* libPods-B.a */,
 			);
@@ -154,6 +164,7 @@
 				BA17EBBF203187470033591B /* B.h in Headers */,
 				BA6720692041180B00A6C88F /* BMoudle.h in Headers */,
 				BA67206D204118AA00A6C88F /* BViewController.h in Headers */,
+				BAD7045720454D7B008CC588 /* BService.h in Headers */,
 				BA6720A72041680500A6C88F /* B_TwoViewController.h in Headers */,
 				BA672071204118BD00A6C88F /* BRouter.h in Headers */,
 				BA6720A3204167BB00A6C88F /* B_OneViewController.h in Headers */,
@@ -300,6 +311,7 @@
 				BA6720A82041680500A6C88F /* B_TwoViewController.m in Sources */,
 				BA672072204118BD00A6C88F /* BRouter.m in Sources */,
 				BA6720A4204167BB00A6C88F /* B_OneViewController.m in Sources */,
+				BAD7045820454D7B008CC588 /* BService.m in Sources */,
 				BA67206E204118AA00A6C88F /* BViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

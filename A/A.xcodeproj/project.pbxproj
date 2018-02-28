@@ -20,6 +20,7 @@
 		BA6720DE204174DD00A6C88F /* C.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA6720DF204174DD00A6C88F /* C.framework */; };
 		BAD459D92031881D008545DB /* B.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BAD459DA2031881D008545DB /* B.framework */; };
 		BAD45A2D204018AD008545DB /* LYRouterModule.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BAD45A2E204018AD008545DB /* LYRouterModule.framework */; };
+		BAD704AD20455D9D008CC588 /* ProtocolsModule.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BAD704AE20455D9D008CC588 /* ProtocolsModule.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +64,7 @@
 		BA6720DF204174DD00A6C88F /* C.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = C.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BAD459DA2031881D008545DB /* B.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = B.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BAD45A2E204018AD008545DB /* LYRouterModule.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = LYRouterModule.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BAD704AE20455D9D008CC588 /* ProtocolsModule.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = ProtocolsModule.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F2415D151EA52CF10452E552 /* Pods-A.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-A.release.xcconfig"; path = "../Pods/Target Support Files/Pods-A/Pods-A.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -71,6 +73,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BAD704AD20455D9D008CC588 /* ProtocolsModule.framework in Frameworks */,
 				BA6720DE204174DD00A6C88F /* C.framework in Frameworks */,
 				BA67209F204122B600A6C88F /* LYMoudleCenter.framework in Frameworks */,
 				BAD45A2D204018AD008545DB /* LYRouterModule.framework in Frameworks */,
@@ -99,6 +102,7 @@
 		13859BBA4D8A52169F4B194B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				BAD704AE20455D9D008CC588 /* ProtocolsModule.framework */,
 				BA6720DF204174DD00A6C88F /* C.framework */,
 				BA6720A0204122B600A6C88F /* LYMoudleCenter.framework */,
 				BA67209D204122B000A6C88F /* AVKit.framework */,

@@ -1,18 +1,18 @@
 //
-//  LYRouterTests.m
-//  LYRouterTests
+//  LYServiceManagerTests.m
+//  LYServiceManagerTests
 //
-//  Created by liyan on 2018/2/12.
+//  Created by liyan on 2018/2/27.
 //  Copyright © 2018年 liyan. All rights reserved.
 //
 
 #import <XCTest/XCTest.h>
 
-@interface LYRouterTests : XCTestCase
+@interface LYServiceManagerTests : XCTestCase
 
 @end
 
-@implementation LYRouterTests
+@implementation LYServiceManagerTests
 
 - (void)setUp {
     [super setUp];

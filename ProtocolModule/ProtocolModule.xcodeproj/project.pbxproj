@@ -7,195 +7,181 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		BA67208920411C4C00A6C88F /* LYMoudleCenter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA67207F20411C4C00A6C88F /* LYMoudleCenter.framework */; };
-		BA67208E20411C4C00A6C88F /* LYMoudleCenterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BA67208D20411C4C00A6C88F /* LYMoudleCenterTests.m */; };
-		BA67209020411C4C00A6C88F /* LYMoudleCenter.h in Headers */ = {isa = PBXBuildFile; fileRef = BA67208220411C4C00A6C88F /* LYMoudleCenter.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BA67209A20411D7800A6C88F /* LYMoudleCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = BA67209920411D7800A6C88F /* LYMoudleCenter.m */; };
-		BA67209C20411F3000A6C88F /* LYMoudleCenterProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = BA67209B20411F3000A6C88F /* LYMoudleCenterProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BAD70454204545DE008CC588 /* LYServiceManager.m in Sources */ = {isa = PBXBuildFile; fileRef = BAD70453204545DE008CC588 /* LYServiceManager.m */; };
-		BAD7046020455A44008CC588 /* LYServiceManager.h in Headers */ = {isa = PBXBuildFile; fileRef = BAD70452204545DE008CC588 /* LYServiceManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BAD7047520455BFB008CC588 /* ProtocolModule.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BAD7046B20455BFB008CC588 /* ProtocolModule.framework */; };
+		BAD7047A20455BFB008CC588 /* ProtocolModuleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BAD7047920455BFB008CC588 /* ProtocolModuleTests.m */; };
+		BAD7047C20455BFB008CC588 /* ProtocolModule.h in Headers */ = {isa = PBXBuildFile; fileRef = BAD7046E20455BFB008CC588 /* ProtocolModule.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		BA67208A20411C4C00A6C88F /* PBXContainerItemProxy */ = {
+		BAD7047620455BFB008CC588 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = BA67207620411C4C00A6C88F /* Project object */;
+			containerPortal = BAD7046220455BFB008CC588 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = BA67207E20411C4C00A6C88F;
-			remoteInfo = LYMoudleCenter;
+			remoteGlobalIDString = BAD7046A20455BFB008CC588;
+			remoteInfo = ProtocolModule;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		BA67207F20411C4C00A6C88F /* LYMoudleCenter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LYMoudleCenter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		BA67208220411C4C00A6C88F /* LYMoudleCenter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LYMoudleCenter.h; sourceTree = "<group>"; };
-		BA67208320411C4C00A6C88F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		BA67208820411C4C00A6C88F /* LYMoudleCenterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LYMoudleCenterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		BA67208D20411C4C00A6C88F /* LYMoudleCenterTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LYMoudleCenterTests.m; sourceTree = "<group>"; };
-		BA67208F20411C4C00A6C88F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		BA67209920411D7800A6C88F /* LYMoudleCenter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LYMoudleCenter.m; sourceTree = "<group>"; };
-		BA67209B20411F3000A6C88F /* LYMoudleCenterProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LYMoudleCenterProtocol.h; sourceTree = "<group>"; };
-		BAD70452204545DE008CC588 /* LYServiceManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LYServiceManager.h; sourceTree = "<group>"; };
-		BAD70453204545DE008CC588 /* LYServiceManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LYServiceManager.m; sourceTree = "<group>"; };
+		BAD7046B20455BFB008CC588 /* ProtocolModule.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ProtocolModule.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BAD7046E20455BFB008CC588 /* ProtocolModule.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ProtocolModule.h; sourceTree = "<group>"; };
+		BAD7046F20455BFB008CC588 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BAD7047420455BFB008CC588 /* ProtocolModuleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProtocolModuleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BAD7047920455BFB008CC588 /* ProtocolModuleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ProtocolModuleTests.m; sourceTree = "<group>"; };
+		BAD7047B20455BFB008CC588 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		BA67207B20411C4C00A6C88F /* Frameworks */ = {
+		BAD7046720455BFB008CC588 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BA67208520411C4C00A6C88F /* Frameworks */ = {
+		BAD7047120455BFB008CC588 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BA67208920411C4C00A6C88F /* LYMoudleCenter.framework in Frameworks */,
+				BAD7047520455BFB008CC588 /* ProtocolModule.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		BA67207520411C4C00A6C88F = {
+		BAD7046120455BFB008CC588 = {
 			isa = PBXGroup;
 			children = (
-				BA67208120411C4C00A6C88F /* LYMoudleCenter */,
-				BA67208C20411C4C00A6C88F /* LYMoudleCenterTests */,
-				BA67208020411C4C00A6C88F /* Products */,
+				BAD7046D20455BFB008CC588 /* ProtocolModule */,
+				BAD7047820455BFB008CC588 /* ProtocolModuleTests */,
+				BAD7046C20455BFB008CC588 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		BA67208020411C4C00A6C88F /* Products */ = {
+		BAD7046C20455BFB008CC588 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				BA67207F20411C4C00A6C88F /* LYMoudleCenter.framework */,
-				BA67208820411C4C00A6C88F /* LYMoudleCenterTests.xctest */,
+				BAD7046B20455BFB008CC588 /* ProtocolModule.framework */,
+				BAD7047420455BFB008CC588 /* ProtocolModuleTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		BA67208120411C4C00A6C88F /* LYMoudleCenter */ = {
+		BAD7046D20455BFB008CC588 /* ProtocolModule */ = {
 			isa = PBXGroup;
 			children = (
-				BA67208220411C4C00A6C88F /* LYMoudleCenter.h */,
-				BA67209920411D7800A6C88F /* LYMoudleCenter.m */,
-				BAD70452204545DE008CC588 /* LYServiceManager.h */,
-				BAD70453204545DE008CC588 /* LYServiceManager.m */,
-				BA67209B20411F3000A6C88F /* LYMoudleCenterProtocol.h */,
-				BA67208320411C4C00A6C88F /* Info.plist */,
+				BAD7046E20455BFB008CC588 /* ProtocolModule.h */,
+				BAD7046F20455BFB008CC588 /* Info.plist */,
 			);
-			path = LYMoudleCenter;
+			path = ProtocolModule;
 			sourceTree = "<group>";
 		};
-		BA67208C20411C4C00A6C88F /* LYMoudleCenterTests */ = {
+		BAD7047820455BFB008CC588 /* ProtocolModuleTests */ = {
 			isa = PBXGroup;
 			children = (
-				BA67208D20411C4C00A6C88F /* LYMoudleCenterTests.m */,
-				BA67208F20411C4C00A6C88F /* Info.plist */,
+				BAD7047920455BFB008CC588 /* ProtocolModuleTests.m */,
+				BAD7047B20455BFB008CC588 /* Info.plist */,
 			);
-			path = LYMoudleCenterTests;
+			path = ProtocolModuleTests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		BA67207C20411C4C00A6C88F /* Headers */ = {
+		BAD7046820455BFB008CC588 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BA67209C20411F3000A6C88F /* LYMoudleCenterProtocol.h in Headers */,
-				BA67209020411C4C00A6C88F /* LYMoudleCenter.h in Headers */,
-				BAD7046020455A44008CC588 /* LYServiceManager.h in Headers */,
+				BAD7047C20455BFB008CC588 /* ProtocolModule.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		BA67207E20411C4C00A6C88F /* LYMoudleCenter */ = {
+		BAD7046A20455BFB008CC588 /* ProtocolModule */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = BA67209320411C4C00A6C88F /* Build configuration list for PBXNativeTarget "LYMoudleCenter" */;
+			buildConfigurationList = BAD7047F20455BFB008CC588 /* Build configuration list for PBXNativeTarget "ProtocolModule" */;
 			buildPhases = (
-				BA67207A20411C4C00A6C88F /* Sources */,
-				BA67207B20411C4C00A6C88F /* Frameworks */,
-				BA67207C20411C4C00A6C88F /* Headers */,
-				BA67207D20411C4C00A6C88F /* Resources */,
+				BAD7046620455BFB008CC588 /* Sources */,
+				BAD7046720455BFB008CC588 /* Frameworks */,
+				BAD7046820455BFB008CC588 /* Headers */,
+				BAD7046920455BFB008CC588 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = LYMoudleCenter;
-			productName = LYMoudleCenter;
-			productReference = BA67207F20411C4C00A6C88F /* LYMoudleCenter.framework */;
+			name = ProtocolModule;
+			productName = ProtocolModule;
+			productReference = BAD7046B20455BFB008CC588 /* ProtocolModule.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		BA67208720411C4C00A6C88F /* LYMoudleCenterTests */ = {
+		BAD7047320455BFB008CC588 /* ProtocolModuleTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = BA67209620411C4C00A6C88F /* Build configuration list for PBXNativeTarget "LYMoudleCenterTests" */;
+			buildConfigurationList = BAD7048220455BFB008CC588 /* Build configuration list for PBXNativeTarget "ProtocolModuleTests" */;
 			buildPhases = (
-				BA67208420411C4C00A6C88F /* Sources */,
-				BA67208520411C4C00A6C88F /* Frameworks */,
-				BA67208620411C4C00A6C88F /* Resources */,
+				BAD7047020455BFB008CC588 /* Sources */,
+				BAD7047120455BFB008CC588 /* Frameworks */,
+				BAD7047220455BFB008CC588 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				BA67208B20411C4C00A6C88F /* PBXTargetDependency */,
+				BAD7047720455BFB008CC588 /* PBXTargetDependency */,
 			);
-			name = LYMoudleCenterTests;
-			productName = LYMoudleCenterTests;
-			productReference = BA67208820411C4C00A6C88F /* LYMoudleCenterTests.xctest */;
+			name = ProtocolModuleTests;
+			productName = ProtocolModuleTests;
+			productReference = BAD7047420455BFB008CC588 /* ProtocolModuleTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		BA67207620411C4C00A6C88F /* Project object */ = {
+		BAD7046220455BFB008CC588 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0920;
 				ORGANIZATIONNAME = liyan;
 				TargetAttributes = {
-					BA67207E20411C4C00A6C88F = {
+					BAD7046A20455BFB008CC588 = {
 						CreatedOnToolsVersion = 9.2;
 						ProvisioningStyle = Automatic;
 					};
-					BA67208720411C4C00A6C88F = {
+					BAD7047320455BFB008CC588 = {
 						CreatedOnToolsVersion = 9.2;
 						ProvisioningStyle = Automatic;
 					};
 				};
 			};
-			buildConfigurationList = BA67207920411C4C00A6C88F /* Build configuration list for PBXProject "LYMoudleCenter" */;
+			buildConfigurationList = BAD7046520455BFB008CC588 /* Build configuration list for PBXProject "ProtocolModule" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = BA67207520411C4C00A6C88F;
-			productRefGroup = BA67208020411C4C00A6C88F /* Products */;
+			mainGroup = BAD7046120455BFB008CC588;
+			productRefGroup = BAD7046C20455BFB008CC588 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				BA67207E20411C4C00A6C88F /* LYMoudleCenter */,
-				BA67208720411C4C00A6C88F /* LYMoudleCenterTests */,
+				BAD7046A20455BFB008CC588 /* ProtocolModule */,
+				BAD7047320455BFB008CC588 /* ProtocolModuleTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		BA67207D20411C4C00A6C88F /* Resources */ = {
+		BAD7046920455BFB008CC588 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BA67208620411C4C00A6C88F /* Resources */ = {
+		BAD7047220455BFB008CC588 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -205,35 +191,33 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		BA67207A20411C4C00A6C88F /* Sources */ = {
+		BAD7046620455BFB008CC588 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BAD70454204545DE008CC588 /* LYServiceManager.m in Sources */,
-				BA67209A20411D7800A6C88F /* LYMoudleCenter.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BA67208420411C4C00A6C88F /* Sources */ = {
+		BAD7047020455BFB008CC588 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BA67208E20411C4C00A6C88F /* LYMoudleCenterTests.m in Sources */,
+				BAD7047A20455BFB008CC588 /* ProtocolModuleTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		BA67208B20411C4C00A6C88F /* PBXTargetDependency */ = {
+		BAD7047720455BFB008CC588 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = BA67207E20411C4C00A6C88F /* LYMoudleCenter */;
-			targetProxy = BA67208A20411C4C00A6C88F /* PBXContainerItemProxy */;
+			target = BAD7046A20455BFB008CC588 /* ProtocolModule */;
+			targetProxy = BAD7047620455BFB008CC588 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		BA67209120411C4C00A6C88F /* Debug */ = {
+		BAD7047D20455BFB008CC588 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -291,7 +275,7 @@
 			};
 			name = Debug;
 		};
-		BA67209220411C4C00A6C88F /* Release */ = {
+		BAD7047E20455BFB008CC588 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -343,7 +327,7 @@
 			};
 			name = Release;
 		};
-		BA67209420411C4C00A6C88F /* Debug */ = {
+		BAD7048020455BFB008CC588 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
@@ -352,17 +336,17 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = LYMoudleCenter/Info.plist;
+				INFOPLIST_FILE = ProtocolModule/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.liyan.LYMoudleCenter;
+				PRODUCT_BUNDLE_IDENTIFIER = com.liyan.ProtocolModule;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		BA67209520411C4C00A6C88F /* Release */ = {
+		BAD7048120455BFB008CC588 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
@@ -371,35 +355,35 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = LYMoudleCenter/Info.plist;
+				INFOPLIST_FILE = ProtocolModule/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.liyan.LYMoudleCenter;
+				PRODUCT_BUNDLE_IDENTIFIER = com.liyan.ProtocolModule;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
-		BA67209720411C4C00A6C88F /* Debug */ = {
+		BAD7048320455BFB008CC588 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = LYMoudleCenterTests/Info.plist;
+				INFOPLIST_FILE = ProtocolModuleTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.liyan.LYMoudleCenterTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.liyan.ProtocolModuleTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		BA67209820411C4C00A6C88F /* Release */ = {
+		BAD7048420455BFB008CC588 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = LYMoudleCenterTests/Info.plist;
+				INFOPLIST_FILE = ProtocolModuleTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.liyan.LYMoudleCenterTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.liyan.ProtocolModuleTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -408,34 +392,34 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		BA67207920411C4C00A6C88F /* Build configuration list for PBXProject "LYMoudleCenter" */ = {
+		BAD7046520455BFB008CC588 /* Build configuration list for PBXProject "ProtocolModule" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				BA67209120411C4C00A6C88F /* Debug */,
-				BA67209220411C4C00A6C88F /* Release */,
+				BAD7047D20455BFB008CC588 /* Debug */,
+				BAD7047E20455BFB008CC588 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		BA67209320411C4C00A6C88F /* Build configuration list for PBXNativeTarget "LYMoudleCenter" */ = {
+		BAD7047F20455BFB008CC588 /* Build configuration list for PBXNativeTarget "ProtocolModule" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				BA67209420411C4C00A6C88F /* Debug */,
-				BA67209520411C4C00A6C88F /* Release */,
+				BAD7048020455BFB008CC588 /* Debug */,
+				BAD7048120455BFB008CC588 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		BA67209620411C4C00A6C88F /* Build configuration list for PBXNativeTarget "LYMoudleCenterTests" */ = {
+		BAD7048220455BFB008CC588 /* Build configuration list for PBXNativeTarget "ProtocolModuleTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				BA67209720411C4C00A6C88F /* Debug */,
-				BA67209820411C4C00A6C88F /* Release */,
+				BAD7048320455BFB008CC588 /* Debug */,
+				BAD7048420455BFB008CC588 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = BA67207620411C4C00A6C88F /* Project object */;
+	rootObject = BAD7046220455BFB008CC588 /* Project object */;
 }

@@ -8,6 +8,7 @@
 
 #import <Foundation/Foundation.h>
 #import <LYMoudleCenter/LYMoudleCenter.h>
+#import <LYMoudleCenter/LYServiceManager.h>
 @interface BMoudle : NSObject <LYMoudleCenterProtocol>
 
 + (instancetype)module;
