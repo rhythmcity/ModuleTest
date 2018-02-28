@@ -4,7 +4,7 @@
 //
 //  Created by liyan on 2018/2/27.
 //  Copyright © 2018年 liyan. All rights reserved.
-//
+//  组件需要提供的服务
 
 #import <UIKit/UIKit.h>
 

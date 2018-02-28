@@ -11,5 +11,14 @@
 #import <UIKit/UIKit.h>
 #import "LYRouterRequest.h"
 @protocol LYRouterProtocol <NSObject>
+/**
+ 统一跳转的方法
+
+ @param request
+ @param application
+ @param annotation
+ @param target
+ @return
+ */
 + (BOOL)openRequest:(LYRouterRequest *)request application:(UIApplication *)application annotation:(id)annotation target:(UIViewController *)target;
 @end
